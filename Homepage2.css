@@ -1,0 +1,113 @@
+/* .navbar-inverse {
+    background-color: #1655df;
+    font-size:18px;
+    } */
+    
+    body{
+        background-color: #f8f9fa;
+        font-family: 'Poppins', sans-serif;
+        color: #2d2d2d;
+        font-size: 14px;
+    }
+    
+    .navbar {
+        overflow: auto;
+        position: sticky !important;
+        top: 0;
+        z-index: 2;
+        background-color: #0099ff;
+        
+    }
+    
+    .form-control{
+        font-size: 14px;
+    }
+    @media screen and (min-width: 994px){    
+    .form-control{
+        width: 350px;
+    }
+    }
+    
+    @media screen and (min-width: 994px){    
+    .navbar-nav{
+      text-align: center;
+    }
+    }
+    
+    
+    .img-categori{
+        max-width: 80% ;
+    }
+    
+    .img-categori:hover{
+        transform: scale(1.2);
+        transition: 0.2s;
+    }
+    
+    .row-container{
+        background-color: #fff;
+        margin: 0px;
+    }
+    
+    .judul-kategori{
+        background-color: #fff;
+        padding: 5px 10px;
+    }
+    
+    .icon-bintang{
+        color: orange;
+    }
+    
+    /*style Produk*/
+    .card:hover{
+        border: 1px solid #2d2d2d;
+    }
+    /*style produk*/
+    
+    
+    
+    /*Modal*/
+    .modal-header, h4, .close {
+        background-color: #0099ff;
+        color:white !important;
+        text-align: center;
+        font-size: 30px;
+      }
+      .modal-footer {
+        background-color: #f9f9f9;
+      }
+    /*modal*/
+    
+    .video-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: min-content;
+        justify-items: center;
+        margin-top: 50px;
+    }
+    
+    .progress{
+        width :50%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: min-content;
+    }
+    
+    .footer-text {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-self: end;
+        padding-bottom: 30px;
+        font-size: 20px;
+        z-index: 2;
+    }
+    
+    .footer .waves {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
